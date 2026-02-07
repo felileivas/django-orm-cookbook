@@ -1,18 +1,18 @@
-### Django ORM cookbook
+### Recetario de Django ORM
 
 
-Django ORM cookbook is a set of recipes of how to do things with Django.
-They take the form of about 50 questions of the form
+Django ORM cookbook es un conjunto de recetas sobre cómo hacer cosas con Django.
+Toman la forma de unas 50 preguntas del tipo
 `How to do X with Django ORM/Queryset`.
 
-We have a set of models which we use across the book for answering these questions.
+Tenemos un conjunto de modelos que usamos a lo largo del libro para responder estas preguntas.
 
-### The models
+### Los modelos
 
-You plan to write a set of models and an assoicated admin for UMSRA researchers. You come up with two apps `entities` and `events`. The models are
+Planeas escribir un conjunto de modelos y un admin asociado para investigadores de UMSRA. Se te ocurren dos aplicaciones, `entities` y `events`. Los modelos son
 
 
-#### Events
+#### Eventos
 
 
     from django.db import models
@@ -86,7 +86,7 @@ You plan to write a set of models and an assoicated admin for UMSRA researchers.
             return self.a
 
 
-#### Entities
+#### Entidades
 
     from django.db import models
 
